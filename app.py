@@ -48,9 +48,9 @@ input {
 """, unsafe_allow_html=True)
 
 
-diabetes_model = pickle.load(open("saved models\\diabetes_model.sav", "rb"))
-heart_model = pickle.load(open("saved models\\heart_disease_model.sav", "rb"))
-parkinsons_model = pickle.load(open("saved models\\parkinsons_model.sav", "rb"))
+diabetes_model = pickle.load(open("saved models/diabetes_model.sav", "rb"))
+heart_model = pickle.load(open("saved models/heart_disease_model.sav", "rb"))
+parkinsons_model = pickle.load(open("saved models/parkinsons_model.sav", "rb"))
 
 
 with st.sidebar:
@@ -199,3 +199,4 @@ elif menu == "Parkinson’s":
         park_result = "⚠️ Parkinson’s Detected" if prediction[0] == 1 else "✅ No Parkinson’s"
 
     st.markdown(f'<div class="result-box">{park_result}</div>', unsafe_allow_html=True)
+
