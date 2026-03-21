@@ -2,6 +2,8 @@
 
 A **machine learning–powered web application** built using **Python** and **Streamlit** that predicts the likelihood of multiple diseases based on user-provided medical data.
 
+🔗 Live App: https://the-disease-prediction-app.streamlit.app/
+
 This project currently supports predictions for:
 - ✅ Diabetes
 - ✅ Heart Disease
@@ -26,5 +28,3 @@ This project currently supports predictions for:
 - **Machine Learning:** Scikit-learn  
 - **Data Handling:** Pandas, NumPy  
 - **Model Storage:** Pickle  
-
----
